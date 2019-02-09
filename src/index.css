@@ -12,3 +12,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.brand-logo{
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.space{
+  height:30px;
+}
+.about{
+  text-align:center;
+}
+.skillSet{
+  text-align: center;
+  font-size:16px;
+}
+ol li{
+  list-style-type:none;
+}
+.card-title{
+  text-transform: uppercase;
+  letter-spacing:2px;
+}
+.title{
+  text-transform: uppercase;
+  letter-spacing:2px;
+}
+.post-intro{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  max-height:21vh;
+}
+.brand-logo{
+  display:hide;
+}
+@media (max-width: 528px){
+  .brand-logo{
+    display:show !important;
+  }
+}
